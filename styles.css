@@ -2,6 +2,8 @@
     display: block;
     overflow: hidden;
     scroll-behavior: smooth;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
     white-space: nowrap;
     font-size: 0;
 }
